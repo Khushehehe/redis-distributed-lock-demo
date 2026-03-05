@@ -4,12 +4,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Redis distributed locking demo using Node.js",
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^9.2.1",
